@@ -1,0 +1,246 @@
+{
+  "routes": [
+    {
+      "route": "/anteana/andergard",
+      "status": 200,
+      "heading": "Андэргард",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2510,
+      "visibleMainCharacters": 662
+    },
+    {
+      "route": "/anteana/creation",
+      "status": 200,
+      "heading": "Часть I. Сотворение мира",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 5716,
+      "visibleMainCharacters": 3124
+    },
+    {
+      "route": "/anteana",
+      "status": 200,
+      "heading": "Измерение Антэана",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 3248,
+      "visibleMainCharacters": 710
+    },
+    {
+      "route": "/anteana/shentar",
+      "status": 200,
+      "heading": "Семь Кругов Шент'Ара",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2710,
+      "visibleMainCharacters": 850
+    },
+    {
+      "route": "/anteana/weldaran/factions/brotherhood",
+      "status": 200,
+      "heading": "Братство без Бога",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 1870,
+      "visibleMainCharacters": 389
+    },
+    {
+      "route": "/anteana/weldaran/factions/empire",
+      "status": 200,
+      "heading": "Империя",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2276,
+      "visibleMainCharacters": 758
+    },
+    {
+      "route": "/anteana/weldaran/factions/goridar-torigar",
+      "status": 200,
+      "heading": "Горидар и Торигар",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 1880,
+      "visibleMainCharacters": 389
+    },
+    {
+      "route": "/anteana/weldaran/factions",
+      "status": 200,
+      "heading": "Фракции",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 1831,
+      "visibleMainCharacters": 372
+    },
+    {
+      "route": "/anteana/weldaran/factions/republic",
+      "status": 200,
+      "heading": "Республика",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 1950,
+      "visibleMainCharacters": 469
+    },
+    {
+      "route": "/anteana/weldaran/factions/silver-revolt",
+      "status": 200,
+      "heading": "Серебряный Мятеж",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2191,
+      "visibleMainCharacters": 666
+    },
+    {
+      "route": "/anteana/weldaran/myths",
+      "status": 200,
+      "heading": "Мифы и легенды",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 4987,
+      "visibleMainCharacters": 1877
+    },
+    {
+      "route": "/anteana/weldaran",
+      "status": 200,
+      "heading": "Вельд'Эран",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 3252,
+      "visibleMainCharacters": 507
+    },
+    {
+      "route": "/anteana/weldaran/races/alkortsy",
+      "status": 200,
+      "heading": "Алкорцы",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 1727,
+      "visibleMainCharacters": 297
+    },
+    {
+      "route": "/anteana/weldaran/races/avally",
+      "status": 200,
+      "heading": "Аваллы, Эльфы, Шейбаниды",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2241,
+      "visibleMainCharacters": 625
+    },
+    {
+      "route": "/anteana/weldaran/races/dwarves",
+      "status": 200,
+      "heading": "Дворфы",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 1939,
+      "visibleMainCharacters": 408
+    },
+    {
+      "route": "/anteana/weldaran/races",
+      "status": 200,
+      "heading": "Расы и народы",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 1831,
+      "visibleMainCharacters": 498
+    },
+    {
+      "route": "/anteana/weldaran/races/subbgary",
+      "status": 200,
+      "heading": "Суббгары",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2393,
+      "visibleMainCharacters": 823
+    },
+    {
+      "route": "/anteana/weldaran/races/trolls-humans",
+      "status": 200,
+      "heading": "Тролли и Люди",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2147,
+      "visibleMainCharacters": 627
+    },
+    {
+      "route": "/anteana/weldaran/races/valgally",
+      "status": 200,
+      "heading": "Вальгаллы",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 1865,
+      "visibleMainCharacters": 387
+    },
+    {
+      "route": "/in-progress",
+      "status": 200,
+      "heading": "В разработке",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 959,
+      "visibleMainCharacters": 137
+    },
+    {
+      "route": "/koronos",
+      "status": 200,
+      "heading": "Измерение Кор'Онос",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2395,
+      "visibleMainCharacters": 446
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "heading": "Библиотека проекта TrioZ",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2315,
+      "visibleMainCharacters": 512
+    },
+    {
+      "route": "/verfal",
+      "status": 200,
+      "heading": "Измерение Верфаль",
+      "jsxBodyUnchanged": true,
+      "jsxCharacters": 2374,
+      "visibleMainCharacters": 466
+    }
+  ],
+  "redirect": "http://localhost:4200/anteana/creation",
+  "themes": [
+    {
+      "theme": "dark",
+      "persistsAfterReload": true,
+      "background": "rgb(10, 10, 15)"
+    },
+    {
+      "theme": "light",
+      "persistsAfterReload": true,
+      "background": "rgb(245, 245, 248)"
+    },
+    {
+      "theme": "mono",
+      "persistsAfterReload": true,
+      "background": "rgb(13, 13, 13)"
+    },
+    {
+      "theme": "mono-lite",
+      "persistsAfterReload": true,
+      "background": "rgb(240, 240, 240)"
+    }
+  ],
+  "mobileNoOverflow": [
+    "/anteana/andergard",
+    "/anteana/creation",
+    "/anteana",
+    "/anteana/shentar",
+    "/anteana/weldaran/factions/brotherhood",
+    "/anteana/weldaran/factions/empire",
+    "/anteana/weldaran/factions/goridar-torigar",
+    "/anteana/weldaran/factions",
+    "/anteana/weldaran/factions/republic",
+    "/anteana/weldaran/factions/silver-revolt",
+    "/anteana/weldaran/myths",
+    "/anteana/weldaran",
+    "/anteana/weldaran/races/alkortsy",
+    "/anteana/weldaran/races/avally",
+    "/anteana/weldaran/races/dwarves",
+    "/anteana/weldaran/races",
+    "/anteana/weldaran/races/subbgary",
+    "/anteana/weldaran/races/trolls-humans",
+    "/anteana/weldaran/races/valgally",
+    "/in-progress",
+    "/koronos",
+    "/",
+    "/verfal"
+  ],
+  "atlas": {
+    "href": "https://int-veld.trioz.ru",
+    "target": "_blank"
+  },
+  "fonts": {
+    "inter": true,
+    "playfair": true
+  },
+  "browserErrors": [],
+  "notFoundView": true
+}

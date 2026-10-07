@@ -1,0 +1,141 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+/* ========== CSS Variables & Themes ========== */
+:root,
+.dark {
+  --bg: #0a0a0f;
+  --bg-secondary: #12121a;
+  --bg-card: #16161f;
+  --fg: #e8e8ed;
+  --fg-muted: #a0a0b0;
+  --accent-cyan: #5ec8d8;
+  --accent-cyan-dim: #3aa8b8;
+  --accent-purple: #8b5cf6;
+  --accent-green: #10b981;
+  --accent-red: #ff4444;
+  --border: #2a2a35;
+  --header-bg: rgba(10, 10, 15, 0.92);
+  --nav-link: #5ec8d8;
+  --nav-hover: rgba(94, 200, 216, 0.12);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --dim-anteana: #5ec8d8;
+  --dim-verfal: #ff6b35;
+  --dim-koronos: #a78bfa;
+}
+
+.light {
+  --bg: #f5f5f8;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --fg: #1a1a24;
+  --fg-muted: #5a5a6a;
+  --accent-cyan: #2a8a9a;
+  --accent-cyan-dim: #1a7080;
+  --accent-purple: #6d28d9;
+  --accent-green: #059669;
+  --accent-red: #dc2626;
+  --border: #e0e0e8;
+  --header-bg: rgba(245, 245, 248, 0.95);
+  --nav-link: #2a8a9a;
+  --nav-hover: rgba(0, 153, 170, 0.1);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --dim-anteana: #2a8a9a;
+  --dim-verfal: #c2410c;
+  --dim-koronos: #7c3aed;
+}
+
+.mono {
+  --bg: #0d0d0d;
+  --bg-secondary: #141414;
+  --bg-card: #1a1a1a;
+  --fg: #e0e0e0;
+  --fg-muted: #888888;
+  --accent-cyan: #cccccc;
+  --accent-cyan-dim: #aaaaaa;
+  --accent-purple: #999999;
+  --accent-green: #888888;
+  --accent-red: #777777;
+  --border: #333333;
+  --header-bg: rgba(13, 13, 13, 0.95);
+  --nav-link: #cccccc;
+  --nav-hover: rgba(255, 255, 255, 0.08);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  --dim-anteana: #cccccc;
+  --dim-verfal: #bbbbbb;
+  --dim-koronos: #aaaaaa;
+}
+
+.mono-lite {
+  --bg: #f0f0f0;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --fg: #1a1a1a;
+  --fg-muted: #555555;
+  --accent-cyan: #444444;
+  --accent-cyan-dim: #333333;
+  --accent-purple: #555555;
+  --accent-green: #444444;
+  --accent-red: #333333;
+  --border: #d0d0d0;
+  --header-bg: rgba(240, 240, 240, 0.95);
+  --nav-link: #333333;
+  --nav-hover: rgba(0, 0, 0, 0.06);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --dim-anteana: #333333;
+  --dim-verfal: #444444;
+  --dim-koronos: #555555;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-fg-muted: var(--fg-muted);
+  --color-accent-cyan: var(--accent-cyan);
+  --color-accent-cyan-dim: var(--accent-cyan-dim);
+  --color-accent-purple: var(--accent-purple);
+  --color-accent-green: var(--accent-green);
+  --color-accent-red: var(--accent-red);
+  --color-border: var(--border);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  min-height: 100vh;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair), Georgia, serif;
+  color: var(--fg);
+}
+
+a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+a:hover { color: var(--accent-cyan-dim); }
+
+.font-display { font-family: var(--font-playfair), Georgia, serif; }
+.text-muted { color: var(--fg-muted); }
+.bg-card { background-color: var(--bg-card); }
+.border-theme { border-color: var(--border); }
+
+.theme-anteana { --accent-cyan: var(--dim-anteana); --nav-link: var(--dim-anteana); }
+.theme-verfal { --accent-cyan: var(--dim-verfal); --nav-link: var(--dim-verfal); }
+.theme-koronos { --accent-cyan: var(--dim-koronos); --nav-link: var(--dim-koronos); }
+
+.card-glow:hover {
+  box-shadow: 0 0 28px color-mix(in srgb, var(--accent-cyan) 18%, transparent);
+}
+
+:root { --font-inter: "Inter"; --font-playfair: "Playfair Display"; }
